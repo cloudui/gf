@@ -1,7 +1,4 @@
 
-<script lang="ts">
-</script>
-
 
 <h2 class="text-2xl font-bold pb-5">Hewwo, my booboo.</h2>
 

@@ -5,22 +5,11 @@
 
 <div class="app">
 	<!-- <Header /> -->
-	<main>
-		<slot />
-	</main>
+	<slot />
 
 </div>
 
 <style>
-	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		box-sizing: border-box;
-		height: 100vh;
-	}
 	.app {
 		display: flex;
 		flex-direction: column;

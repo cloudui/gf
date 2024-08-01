@@ -19,17 +19,19 @@
   });
 </script>
 
-<section class="card bg-white mx-5 md:w-1/2 h-2/3 opacity-90">
-  <div class="card-body items-center text-center">
-    <h2 class="text-5xl font-bold pb-10">Sorry, it's time to die.</h2>
-    {#if count > 0}
-      <span class="countdown text-5xl text-bold pb-10 text-error">
-        {count}
-      </span>
-    {:else}
-      <div>
-        <img src="/images/explosion.gif" alt="explosion" />
-      </div>
-    {/if}
-  </div>
-</section>
+<main>
+  <section class="card bg-white mx-5 md:w-1/2 h-2/3 opacity-90">
+    <div class="card-body items-center text-center">
+      <h2 class="text-5xl font-bold pb-10">Sorry, it's time to die.</h2>
+      {#if count > 0}
+        <span class="countdown text-5xl text-bold pb-10 text-error">
+          {count}
+        </span>
+      {:else}
+        <div>
+          <img src="/images/explosion.gif" alt="explosion" />
+        </div>
+      {/if}
+    </div>
+  </section>
+</main>
