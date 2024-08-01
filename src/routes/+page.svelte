@@ -12,7 +12,7 @@
 		<p class="text-xl pb-2">You can only go ahead if your name is Emily Tuong-Vi Nguyen.</p>
 		<p class="pb-2">Are you Emily?</p>
 		<div class="card-actions justify-end">
-		<a class="btn btn-success" href="/booboo">Yes</a>
+		<a class="btn btn-success" href="/auth">Yes</a>
 		<a class="btn btn-error" href="/goodbye">No</a>
 		</div>
 	</div>
