@@ -26,12 +26,11 @@
 </script>
 
 <main>
-  <section class="w-full h-full flex items-center justify-center">
-    {#if !authenticated }
+  <section class="w-full h-full flex items-center justify-center items-center">
     <div class="card bg-white w-full mx-5 md:w-1/2 min-h-2/3">
-      <form on:submit|preventDefault={validate} class="card-body items-center">
-        <h2 class="text-xl font-bold text-center pb-10">Not sure I believe you.</h2>
-        <div class="flex flex-col w-full md:w-1/2">
+      <form on:submit|preventDefault={validate} class="flex justify-center items-center card-body">
+        <h2 class="text-xl font-bold text-center pb-5">Not sure I believe you.</h2>
+        <div class="flex flex-col w-full items-center md:w-1/2">
           <!-- phone number -->
           <label class="form-control w-full max-w-xs">
             <div class="label">
@@ -82,8 +81,5 @@
         <button type="submit" class="btn btn-success mt-5">Submit</button>
       </form>
     </div>
-    {:else}
-      <p>Gay</p>
-    {/if}
   </section>
 </main>
