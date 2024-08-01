@@ -1,7 +1,4 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
 <svelte:head>
@@ -9,28 +6,19 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		Hello
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+<section class="card bg-white mx-5 md:w-1/2 opacity-90">
+	<div class="card-body items-center text-center">
+		<h2 class="text-5xl font-bold pb-2">Welcome!</h2>
+		<p class="text-xl pb-2">You can only go ahead if your name is Emily Tuong-Vi Nguyen.</p>
+		<p class="pb-2">Are you Emily?</p>
+		<div class="card-actions justify-end">
+		<a class="btn btn-success" href="/booboo">Yes</a>
+		<a class="btn btn-error" href="/goodbye">No</a>
+		</div>
+	</div>
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		height: 100vh;
-		/* flex: 0.6; */
-	}
-
-	h1 {
-		width: 100%;
-	}
 	
+
 </style>
